@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/selectallitems"
+        android:title="SELECT ALL ITEMS"
+        android:icon="@android:drawable/ic_search_category_default"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/insertitem"
+        android:title="ADD AN ITEM"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/deleteitem"
+        android:title="DELETE AN ITEM"
+        android:icon="@android:drawable/ic_input_delete"
+        app:showAsAction="ifRoom"/>
+</menu>
